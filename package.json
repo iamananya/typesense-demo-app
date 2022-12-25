@@ -1,0 +1,23 @@
+{
+  "name": "typesense-instantsearch-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html --port 3000",
+    "build": "parcel build index.html",
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint . --fix && prettier --write ."
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1",
+    "eslint": "8.15.0",
+    "parcel": "2.0.1",
+    "prettier": "2.6.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "algoliasearch": "4",
+    "instantsearch.js": "4.49.2",
+    "typesense-instantsearch-adapter": "^2.4.2"
+  }
+}
